@@ -7,6 +7,8 @@ https://github.com/livialima/linuxupskillchallenge
 
 ✔ Day 0 - Creating Your Own Server - with a $5 Digital Ocean plan @done(23-01-25 18:46)
 https://github.com/livialima/linuxupskillchallenge/blob/master/00-Digital-Ocean.md
+		✔ note the rouota passwd: @done(23-01-25 19:30)
+			e8jPcG+K^3H3ASSw
 	✔ add user eribertto with passwd TYU890))op @done(23-01-25 19:14)
 	✔ add eribertto to groups adm,sudo using the usermod command as root @done(23-01-25 19:19)
 			eribertto@ubuntu-s-1vcpu-1gb-blr1-01:~$ hostnamectl
