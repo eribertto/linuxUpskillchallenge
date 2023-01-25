@@ -4,5 +4,22 @@ https://www.reddit.com/r/linuxupskillchallenge/comments/100xkus/day_0_creating_y
 Table of Contents TOC
 https://github.com/livialima/linuxupskillchallenge
 
-☐ Day 0 - Creating Your Own Server - with AWS Free Tier
-https://github.com/livialima/linuxupskillchallenge/blob/master/00-AWS-Free-Tier.md
+
+✔ Day 0 - Creating Your Own Server - with a $5 Digital Ocean plan @done(23-01-25 18:46)
+https://github.com/livialima/linuxupskillchallenge/blob/master/00-Digital-Ocean.md
+	✔ add user eribertto with passwd TYU890))op @done(23-01-25 19:14)
+	✔ add eribertto to groups adm,sudo using the usermod command as root @done(23-01-25 19:19)
+			eribertto@ubuntu-s-1vcpu-1gb-blr1-01:~$ hostnamectl
+			Static hostname: ubuntu-s-1vcpu-1gb-blr1-01
+			Icon name: computer
+			Machine ID: f5a7f5476a48f2816a4d86b163d13231
+			Boot ID: 6fc792562d504f96887fe1c9d19d8324
+			Virtualization: kvm
+			Operating System: Ubuntu 22.10                    
+			Kernel: Linux 5.19.0-23-generic
+			Architecture: x86-64
+			Hardware Vendor: DigitalOcean
+			Hardware Model: Droplet
+			Firmware Version: 20171212
+		✔ disabled root access in droplet using the command: @done(23-01-25 19:24)
+			sudo usermod -p "!" root
